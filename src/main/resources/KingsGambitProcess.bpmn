@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:drools="http://www.jboss.org/drools" id="_hQ6S4eIrEe6ZPZwwco9PGw" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+  <bpmn2:process id="KingGambit.KingsGambitProcess" drools:packageName="org.jbpm" drools:version="1.0" drools:adHoc="false" name="KingsGambitProcess" isExecutable="true" processType="Public"/>
+  <bpmndi:BPMNDiagram id="_hQ9WMOIrEe6ZPZwwco9PGw">
+    <bpmndi:BPMNPlane id="_hQ9WMeIrEe6ZPZwwco9PGw" bpmnElement="KingGambit.KingsGambitProcess"/>
+  </bpmndi:BPMNDiagram>
+  <bpmn2:relationship id="_hQ9WMuIrEe6ZPZwwco9PGw" type="BPSimData">
+    <bpmn2:extensionElements>
+      <bpsim:BPSimData>
+        <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
+          <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
+        </bpsim:Scenario>
+      </bpsim:BPSimData>
+    </bpmn2:extensionElements>
+    <bpmn2:source>_hQ6S4eIrEe6ZPZwwco9PGw</bpmn2:source>
+    <bpmn2:target>_hQ6S4eIrEe6ZPZwwco9PGw</bpmn2:target>
+  </bpmn2:relationship>
+</bpmn2:definitions>
