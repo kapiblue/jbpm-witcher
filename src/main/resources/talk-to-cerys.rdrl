@@ -1,7 +1,0 @@
-import java.lang.Number;
-
-rule "talk-to-cerys"
-	dialect "mvel"
-	when
-	then
-end
