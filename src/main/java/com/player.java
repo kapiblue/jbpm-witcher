@@ -6,12 +6,35 @@ package com;
 
 public class player implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public player() {
-    }
+	@org.kie.api.definition.type.Label(value = "XP")
+	private int xp;
+	@org.kie.api.definition.type.Label(value = "Crowns")
+	private int crowns;
 
+	public player() {
+	}
 
+	public int getXp() {
+		return this.xp;
+	}
 
+	public void setXp(int xp) {
+		this.xp = xp;
+	}
+
+	public int getCrowns() {
+		return this.crowns;
+	}
+
+	public void setCrowns(int crowns) {
+		this.crowns = crowns;
+	}
+
+	public player(int xp, int crowns) {
+		this.xp = xp;
+		this.crowns = crowns;
+	}
 
 }
