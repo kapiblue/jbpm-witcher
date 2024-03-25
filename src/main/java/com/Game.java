@@ -6,12 +6,47 @@ package com;
 
 public class Game implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Game() {
-    }
+	@org.kie.api.definition.type.Label(value = "Player")
+	private com.player player;
+	@org.kie.api.definition.type.Label(value = "Fight counter")
+	private java.lang.Integer fight_counter;
+	@org.kie.api.definition.type.Label(value = "Game result")
+	private java.lang.Boolean game_result;
 
+	public Game() {
+	}
 
+	public com.player getPlayer() {
+		return this.player;
+	}
 
+	public void setPlayer(com.player player) {
+		this.player = player;
+	}
+
+	public java.lang.Integer getFight_counter() {
+		return this.fight_counter;
+	}
+
+	public void setFight_counter(java.lang.Integer fight_counter) {
+		this.fight_counter = fight_counter;
+	}
+
+	public java.lang.Boolean getGame_result() {
+		return this.game_result;
+	}
+
+	public void setGame_result(java.lang.Boolean game_result) {
+		this.game_result = game_result;
+	}
+
+	public Game(com.player player, java.lang.Integer fight_counter,
+			java.lang.Boolean game_result) {
+		this.player = player;
+		this.fight_counter = fight_counter;
+		this.game_result = game_result;
+	}
 
 }
