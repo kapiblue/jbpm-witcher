@@ -1,0 +1,1 @@
+{"id":"7c05c897-7976-4828-9d61-0e2eda6cf03a","name":"approach_crachs_room-taskform","model":{"taskName":"approach_crachs_room","processId":"KingGambit.KingsGambitProcess","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
