@@ -1,0 +1,1 @@
+{"id":"dd534022-baeb-4ddb-a315-e1110a974632","name":"crach-gives-sword-taskform","model":{"taskName":"crach-gives-sword","processId":"KingGambit.KingsGambitProcess","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
