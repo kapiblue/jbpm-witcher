@@ -1,0 +1,1 @@
+{"id":"564a12a1-b825-4586-bc85-4d149a82b02c","name":"talk_to_cerys-taskform","model":{"taskName":"talk_to_cerys","processId":"KingGambit.KingsGambitProcess","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
