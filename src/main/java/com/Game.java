@@ -13,6 +13,9 @@ public class Game implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Game result")
 	private java.lang.Boolean game_result;
 
+	@org.kie.api.definition.type.Label(value = "Player")
+	private com.player player;
+
 	public Game() {
 	}
 
@@ -32,9 +35,19 @@ public class Game implements java.io.Serializable {
 		this.game_result = game_result;
 	}
 
-	public Game(java.lang.Integer fight_counter, java.lang.Boolean game_result) {
+	public com.player getPlayer() {
+		return this.player;
+	}
+
+	public void setPlayer(com.player player) {
+		this.player = player;
+	}
+
+	public Game(java.lang.Integer fight_counter, java.lang.Boolean game_result,
+			com.player player) {
 		this.fight_counter = fight_counter;
 		this.game_result = game_result;
+		this.player = player;
 	}
 
 }
