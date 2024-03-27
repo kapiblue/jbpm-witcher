@@ -1,4 +1,4 @@
-Repository Init Content
+King's Gambit
 =======================
 
-Your project description here.
+An amazing journey.
